@@ -30,10 +30,13 @@
     color: grey;
     background-color: transparent;
 }
-.img-responsive{
-	width:400px;
-	height: 400px;
-}
 .btn{
 	margin-bottom:10px;
 }
+
+@media screen and (min-width:768px) {
+	.row, p{
+	font-size:18px;
+}
+
+}	
