@@ -10,6 +10,7 @@
 .navbar-default{
 	background-color: #75c9b4;
 	border-color: #75c9b4;
+	width: 100%;
 }
 .navbar-default .navbar-nav > li > a {
     color: white;
@@ -36,10 +37,17 @@
 .glyphicon {
     margin-left: 5px;
 }
-
-@media screen and (min-width:768px) {
-	.row, p{
-	font-size:18px;
+.row{
+	margin-bottom:15px;
 }
 
+@media screen and (min-width:768px) {
+		.info-runners{
+			font-size:18px;	
+			margin-top: 25%;
+		}
+		.info-xavier{
+			font-size: 18px;
+			margin-top: 15%;
+		}
 }	
